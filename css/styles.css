@@ -274,7 +274,6 @@ a.white:hover {
     font-size: 0.875rem;
     line-height: 1.875rem;
     transition: all 0.2s;
-    -webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
 
 .form-control-select {
@@ -1732,7 +1731,7 @@ a:hover.back-to-top {
     font-family: inherit;
     padding: 8px 15px;
     border-radius: 4px;
-    border: 1px #f2f2f2 solid;
+    border: 1px #000000 solid;
     background: #fdfdfd;
     outline: none;
     width: 100%;
